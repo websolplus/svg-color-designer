@@ -1,0 +1,213 @@
+#np_model {
+ 
+  margin: 0 auto;
+  padding:0 0 10px 0;
+  
+}
+
+#np_colors_cont {
+  background: #fff; cursor: pointer;
+	margin: 10px 0 50px 0;
+  clear: both;
+}
+
+.np_colors {
+  text-align: left;
+
+}
+
+.np_element_label, .np_color_btn {
+  display: inline-block;
+  vertical-align: top;
+  height: 36px;
+  margin-bottom: 5px;
+}
+
+.np_element_label {
+  width: 100px;
+  line-height: 36px;
+  text-align: right;
+  padding-right: 25px;
+}
+
+.np_colors .np_color_btn {
+  cursor: pointer;
+  width: 36px;
+  margin: 3px 3px 3px 3px;
+  border-radius: 5px;
+  box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.4);
+  position: relative;
+  overflow: hidden;
+}
+
+
+.np_colors .np_color_btn:hover {
+  opacity: 0.8;
+  transition: opacity 0.3s ease;
+}
+
+.np_hide_btn { box-shadow:none!important; font-size:26px; color:red; padding-top:3px;}
+
+
+.np_mob_color_nav {
+  display: none;
+}
+
+.copyright {text-align:center; font-family:"Lato", sans-serif; }
+
+@media screen and (max-width: 1650px) {
+
+
+  #np_barn {
+    margin-top: 50px;
+  }
+}
+@media screen and (max-width: 1260px) {
+
+  #np_barn {
+    margin-top: 30px;
+  }
+
+  #np_colors_cont {
+    margin: 0 auto;
+    margin-top: 10px 0 10px 0;
+  }
+
+  .np_element_label, .np_color_btn {
+    height: 33px;
+  }
+
+  .np_element_label {
+    width: 85px;
+    line-height: 33px;
+    padding-right: 20px;
+    font-size: 14px;
+  }
+
+  .np_colors .np_color_btn {
+  width: 36px;
+  margin: 3px 3px 3px 3px;
+  border-radius: 5px;
+  box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.4);
+  }
+
+  .cstext {
+    padding-left: 4%;
+    padding-right: 4%;
+  }
+}
+
+@media screen and (max-width: 1012px) {
+  .np_element_label, #coloradditional {
+    display: none;
+  }
+
+
+  .np_mob_color_nav {
+    display: block;
+    width: 100%;
+    text-align: center;
+    height: 50px;
+    position: relative;
+
+  }
+
+  .np_mob_color_nav div {
+    width: -webkit-calc(20% - 10px);
+    width: calc(20% - 5px);
+    border-right: 1px solid #ffffff;
+    float: left;
+    line-height: 50px;
+    font-size: 14px;
+    text-align: center;
+    background-color:#AE1D2D;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+  }
+
+  .np_mob_color_nav div:nth-child(5) {
+    width: 20%;
+    border: 0;
+  }
+
+
+  #np_colors_cont {
+    background: #fff;
+    margin-top: 0;
+    margin-bottom: 50px;
+    width: 100%;
+    padding: 20px 5px;
+  }
+
+  .np_curr {
+      background-color: #eeeeee!important; border-radius-top:5px;
+      color: #AE1D2D!important; font-weight:bold; 
+  }
+
+  .np_colors {
+    display: none;
+  }
+
+  .np_hide {
+    display: none !important;
+  }
+
+  .np_show {
+    display: block !important;
+  }
+}
+@media screen and (max-width: 767px) {
+ 
+
+  #np_colors_cont {
+    margin-bottom: 40px;
+  }
+
+  .np_mob_color_nav {
+    margin-top: 15px;
+  }
+
+  .np_mob_color_nav div {
+    font-size: 12px;
+  }
+  
+}
+
+@media screen and (max-width: 550px) {
+	.np_color_options {display:none; }
+	  
+}
+
+
+.np_color_options { background-color:#eeeeee; border:1px solid #ccc; padding:10px; position:relative; bottom:130px; width:200px; margin-bottom:-120px; text-transform:capitalize;  }
+.np_color_option { padding:5px; border-radius:5px; height:24px; transition: background-color 0.3s ease;}
+
+
+
+#svg_drawing {width: 100%; height: auto;}
+
+.container {max-width:1200px; margin:auto; }
+
+ .shiny_black {background-color:#010101; color:white; }
+ .black {background-color:#303133; color:white; }
+ .charcoal {background-color:#5F5F57; color:white; }
+ .gray {background-color:#a7a598; color:white; }
+ .bright_white {background-color:#FBFFFF; color:black; }
+ .white {background-color:#E6E6E6; color:black; }
+ .ivory {background-color:#FEF8C4; color:black; }
+ .tan {background-color:#D8AC7B; color:black; }
+ .stone {background-color:#E4D5B4; color:black; }
+ .clay {background-color:#C2B89F; color:black; }
+ .burnished_slate {background-color:#62614D; color:white; }
+ .brown {background-color:#6C4C41; color:white; }
+ .red {background-color:#842D1A; color:white; }
+ .dark_red {background-color:#8b1410; color:white; }
+ .crimson_red {background-color:#AC130B; color:white; }
+ .burgundy {background-color:#632F31; color:white; }
+ .gallery_blue {background-color:#2B4C6F; color:white; }
+ .blue {background-color:#5A9A9C; color:white; }
+ .evergreen {background-color:#194F38; color:white; }
+ .hartford_green {background-color:#113A28; color:white; }
+ .gold {background-color:#ECC963; color:black; }
+ .copper {background-color:#CD8014; color:white; }
